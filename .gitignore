@@ -1,0 +1,47 @@
+# Raw RefinedIBD outputs / local data
+HC/
+LC/
+*.ibd.gz
+*.hbd.gz
+*.log
+*_merged.ibd
+
+# Generated figures and tables
+*.pdf
+*.tiff
+*.tif
+*.png
+IBD_metrics_*.csv
+IBD_mosaic_*.csv
+HC_IBD_Frequency.csv
+LC_IBD_Frequency.csv
+
+# R/Python local state
+.RData
+.Rhistory
+.Rproj.user/
+Rplots.pdf
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Local notes/backups
+Haplotipos.*
+Metricas_original.py
+Metricas_haplotype_binned.py
+MosaicoIBD_original.R
+
+# Circus plot outputs
+IBD_circus_summary_*.csv
+IBD_circus_summary_*.tiff
+
+IBD_circus_*.csv
+IBD_circus_*.tiff
+
+# Local exploratory scripts not included in this repository
+FrecuenciasIBD.py
+Metric_ind.py
+MosaicoIBD_length_classes_collapsed.R
